@@ -1,0 +1,122 @@
+/*
+ *
+ * ------------------------------------------------------
+ * Grid DobokCSS
+ * ------------------------------------------------------
+ *
+ * page:     https://dobokcss.github.io/essential/grid/
+ * author:  Estefanio N Santos <estefanions AT gmail DOT com> 
+ * version: 0.30.0
+ */
+
+.gr{
+    float: left; 
+    text-align: left;
+    margin-left: 1.55%; 
+    margin-bottom: 0.775%;
+    min-height: 1.55%; 
+    line-height: 20px
+}
+
+.gr_1{ width: 6.78%} 
+.gr_2{ width: 15.11%}
+.gr_3{ width: 23.44%}
+.gr_4{ width: 31.77%}
+.gr_5{ width: 40.1%}
+.gr_6{ width: 48.43%}
+.gr_7{ width: 56.76%}
+.gr_8{ width: 65.09%}
+.gr_9{ width: 73.42%}
+.gr_10{width: 81.75%}
+.gr_11{width: 90.08%}
+.gr_12, .container { width: 96% } 
+
+.container { margin-left: auto; margin-right: auto }
+.container:before, .container:after { display: table; content: ""}
+.container:after {clear: both}
+
+.container .gr_12{
+    width: 100%;
+    margin-left: 0; 
+    margin-bottom: 0.775%
+}  
+
+.row{ 
+    width: 100%; float: left; margin-left: -1.55%; margin-bottom: 0 
+}
+.row:before, .row:after {display: table; content: ""}
+.row:after {clear: both}
+
+.row .gr_12{
+    width: 98.45%;
+    margin-left: 1.55%;
+    margin-bottom: 0.775% 
+}
+
+.gr_field input, 
+.gr_field select, 
+.gr_field textarea,
+.gr_button button,
+.gr_button input[type="submit"],
+.gr_button input[type="button"] { 
+    width: 100%; float: left
+}
+
+.gr_xsm_static{ width: 639px  }
+.gr_sm_static { width: 769px  }
+.gr_md_static { width: 959px  }
+.gr_lg_static { width: 1023px }
+.gr_xlg_static{ width: 1219px }
+
+@media (min-width: 639px ) { .gr_xsm_static { width: 92%; } }
+@media (min-width: 769px ) { .gr_sm_static  { width: 92%; } }
+@media (min-width: 959px ) { .gr_md_static  { width: 92%; } }
+@media (min-width: 1023px) { .gr_lg_static  { width: 92%; } }
+@media (min-width: 1219px) { .gr_xlg_static { width: 92%; } }
+
+@media (min-width: 639px) 
+{
+    .gr_xsm_3  { width: 23.44% }
+    .gr_xsm_4  { width: 31.77% }
+    .gr_xsm_6  { width: 48.45% }
+    .gr_xsm_8  { width: 65.09% }
+    .gr_xsm_12 { width: 98.45% }
+}
+
+@media (min-width: 769px) 
+{
+    .gr_sm_3  { width: 23.44% }
+    .gr_sm_4  { width: 31.77% }
+    .gr_sm_6  { width: 48.45% }
+    .gr_sm_8  { width: 65.09% }
+    .gr_sm_12 { width: 98.45% }
+}
+
+@media (min-width: 959px) 
+{
+    .gr_md_3  { width: 23.44% }
+    .gr_md_4  { width: 31.77% }
+    .gr_md_6  { width: 48.45% }
+    .gr_md_8  { width: 65.09% }
+    .gr_md_12 { width: 98.45% }
+}
+
+@media (min-width: 1023px) 
+{
+    .gr_lg_3  { width: 23.44% }
+    .gr_lg_4  { width: 31.77% }
+    .gr_lg_6  { width: 48.45% }
+    .gr_lg_8  { width: 65.09% }
+    .gr_lg_12 { width: 98.45% }
+}
+
+@media (min-width: 1219px) 
+{
+    .gr_xlg_3  { width: 23.44% }
+    .gr_xlg_4  { width: 31.77% }
+    .gr_xlg_6  { width: 48.45% }
+    .gr_xlg_8  { width: 65.09% }
+    .gr_xlg_12 { width: 98.45% }
+
+}
+
